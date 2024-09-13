@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman';
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: tomato;
+    text-align: center;
+}
+button{
+    width: 100%;
+    background-color: lime;
+    font-size: 16px;
+}
+.container{
+    background-color: honeydew;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+}
+p {
+    text-align: center;
+}
+input{
+    width: 100%;
+    align-content: center;
+}
+input[placeholder="Masukkan tinggi badan anda"], input[placeholder="Masukkan berat badan anda"] {
+    text-align: center;
+  }
